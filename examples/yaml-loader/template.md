@@ -6,7 +6,7 @@ ymlからjsonファイルへの変換なのでjson-loaderと組み合わせる�
 ### インストール
 
 ```console
-npm install --save-dev yaml-loader
+npm install --save-dev yaml-loader json-loader
 ```
 
 ### example.js
