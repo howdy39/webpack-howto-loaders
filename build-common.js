@@ -4,9 +4,9 @@ var fs = require("fs");
 
 (function doIt() {
     cp.exec("webpack", function (error, stdout, stderr) {
-        if(stderr && remainingTimes === 1)
+        if(stderr)
             console.log(stderr);
-        if (error !== null && remainingTimes === 1)
+        if (error !== null)
             console.log(error);
         try {
             var readme = tc(fs.readFileSync(require("path").join(process.cwd(), "template.md"), "utf-8"), process.cwd(), stdout.replace(/[\r\n]*$/, ""), "min");
