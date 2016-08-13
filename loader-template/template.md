@@ -1,5 +1,5 @@
 ## [xxx-loader]()
-〜するためのLoader
+xxxファイルを読み込むためのLoader
 
 ### インストール
 
