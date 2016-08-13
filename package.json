@@ -1,0 +1,27 @@
+{
+  "name": "webpack-howto-loaders",
+  "version": "1.0.0",
+  "description": "webpackでよく使われるLoaderの使い方や説明など",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build-all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://howdy39@github.com/howdy39/webpack-howto-loaders.git"
+  },
+  "keywords": [
+    "webpack",
+    "howto",
+    "loader"
+  ],
+  "author": "Tatsuya Nakano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/howdy39/webpack-howto-loaders/issues"
+  },
+  "homepage": "https://github.com/howdy39/webpack-howto-loaders#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
