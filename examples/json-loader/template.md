@@ -1,6 +1,12 @@
 ## [json-loader](https://github.com/webpack/json-loader)
 jsonファイルを読み込むためのLoader
 
+### インストール
+
+```console
+npm install --save-dev json-loader
+```
+
 ### example.js
 
 ```javascript:example.js
@@ -21,7 +27,7 @@ jsonファイルを読み込むためのLoader
 
 ### 実行&実行結果
 
-```console:実行&実行結果 
+```console 
 node output.js
 [ 'tama', 'kuro', 'tora' ]
 ```

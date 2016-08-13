@@ -44,9 +44,19 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var cats = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./cats.json\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	var cats = __webpack_require__(1);
 	console.log(cats);
 
+
+/***/ },
+/* 1 */
+/***/ function(module, exports) {
+
+	module.exports = [
+		"tama",
+		"kuro",
+		"tora"
+	];
 
 /***/ }
 /******/ ]);
