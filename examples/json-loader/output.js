@@ -47,5 +47,6 @@
 	var cats = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./cats.json\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	console.log(cats);
 
+
 /***/ }
 /******/ ]);
