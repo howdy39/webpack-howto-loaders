@@ -4,15 +4,14 @@ jsonファイルを読み込むためのLoader
 ### example.js
 
 ```javascript:example.js
-var cats = require('./cats.js');
+var cats = require('./cats.json');
 console.log(cats);
 ```
 
-### cats.js
+### cats.json
 
-```javascript:cats.js
-var cats = ['tama', 'kuro', 'tora']
-module.exports = cats;
+```json:cats.json
+["tama", "kuro", "tora"]
 ```
 
 ### webpack.config.js
@@ -22,6 +21,11 @@ module.exports = {
   entry: './example.js',
   output: {
     filename: 'output.js'
+  },
+  module: {
+    loaders: [
+      {test: /\.json$/, loader: 'json'}
+    ]
   }
 }
 ```

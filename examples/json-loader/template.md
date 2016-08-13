@@ -7,10 +7,10 @@ jsonファイルを読み込むためのLoader
 {{example.js}}
 ```
 
-### cats.js
+### cats.json
 
-```javascript:cats.js
-{{cats.js}}
+```json:cats.json
+{{cats.json}}
 ```
 
 ### webpack.config.js
