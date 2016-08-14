@@ -1,4 +1,4 @@
-## [ts-loader](s://github.com/TypeStrong/ts-loader)
+## [ts-loader](https://github.com/TypeStrong/ts-loader)
 TypeScriptファイルを読み込むためのLoader
 
 tsconfig.jsonは必須。
