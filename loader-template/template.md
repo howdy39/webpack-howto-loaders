@@ -29,5 +29,5 @@ npm install --save-dev xxx-loader
 
 ```console 
 node output.js
-yyy
+[ 'tama', 'kuro', 'tora' ]
 ```
