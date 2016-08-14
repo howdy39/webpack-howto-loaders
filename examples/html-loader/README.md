@@ -1,4 +1,4 @@
-## [html-loader]()
+## [html-loader](https://github.com/webpack/html-loader)
 htmlファイルを読み込むためのLoader
 
 テンプレートHTMLを別ファイルに定義する時とかに使うとよさげ。
