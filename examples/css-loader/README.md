@@ -76,4 +76,4 @@ module.exports = {
 ![cap1](https://raw.githubusercontent.com/howdy39/webpack-howto-loaders/master/examples/css-loader/capture/cap1.png)
 
 **kittenはfile-loaderを通しているのでファイルが出力されている**
-![cap2](https://raw.githubusercontent.com/howdy39/webpack-howto-loaders/master/examples/css-loader/capture/cap1.png)
+![cap2](https://raw.githubusercontent.com/howdy39/webpack-howto-loaders/master/examples/css-loader/capture/cap2.png)
