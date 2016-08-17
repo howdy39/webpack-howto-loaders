@@ -11,7 +11,7 @@ babelへのオプションは３種類の渡し方がある。
 ### インストール
 
 ```console
-npm install --save-dev babel-loader babel-core babel-preset-es2015
+npm install babel-loader babel-core babel-preset-es2015 --save-dev 
 ```
 
 ### example.js

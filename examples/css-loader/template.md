@@ -8,7 +8,7 @@ url-loaderやfile-loaderと組み合わせてcss内のurl()に対応可能。
 ### インストール
 
 ```console
-npm install --save-dev css-loader style-loader url-loader file-loader
+npm install css-loader style-loader url-loader file-loader --save-dev 
 ```
 
 ### example.js

@@ -12,7 +12,7 @@ css-loaderとセットで使う。
 ### インストール
 
 ```console
-npm install --save-dev style-loader css-loader
+npm install style-loader css-loader --save-dev 
 ```
 
 ### example.js

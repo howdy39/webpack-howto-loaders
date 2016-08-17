@@ -4,7 +4,7 @@ jsonファイルを読み込むためのLoader
 ### インストール
 
 ```console
-npm install --save-dev json-loader
+npm install json-loader --save-dev 
 ```
 
 ### example.js

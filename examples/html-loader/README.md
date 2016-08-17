@@ -6,7 +6,7 @@ htmlファイルを読み込むためのLoader
 ### インストール
 
 ```console
-npm install --save-dev html-loader
+npm install html-loader --save-dev 
 ```
 
 ### example.js

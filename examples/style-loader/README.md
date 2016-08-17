@@ -12,7 +12,7 @@ css-loaderとセットで使う。
 ### インストール
 
 ```console
-npm install --save-dev style-loader css-loader
+npm install style-loader css-loader --save-dev 
 ```
 
 ### example.js
@@ -77,11 +77,11 @@ module.exports = {
 
 ### 実行&実行結果
 
-**初期状態**  
+**初期状態**
 ![cap1](https://raw.githubusercontent.com/howdy39/webpack-howto-loaders/master/examples/style-loader/capture/cap1.png)
 
-**スタイルを適用**  
+**スタイルを適用**
 ![cap2](https://raw.githubusercontent.com/howdy39/webpack-howto-loaders/master/examples/style-loader/capture/cap2.png)
 
-**スタイルを外す**  
+**スタイルを外す**
 ![cap3](https://raw.githubusercontent.com/howdy39/webpack-howto-loaders/master/examples/style-loader/capture/cap3.png)

@@ -11,7 +11,7 @@ Module build failed: TypeError: Path must be a string. Received undefined
 ### インストール
 
 ```console
-npm install --save-dev ts-loader typescript
+npm install ts-loader typescript --save-dev 
 ```
 
 ### example.js
