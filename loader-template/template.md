@@ -4,7 +4,7 @@ xxxファイルを読み込むためのLoader
 ### インストール
 
 ```console
-npm install --save-dev xxx-loader
+npm install xxx-loader --save-dev
 ```
 
 ### example.js
