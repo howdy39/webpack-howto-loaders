@@ -7,7 +7,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      // {test: /\.jpg$/, loader: 'file'} // 検証のため直接requireの方に記載
+      // {test: /\.jpg$/, loader: 'url'} // 検証のため直接requireの方に記載
     ]
   }
 }
