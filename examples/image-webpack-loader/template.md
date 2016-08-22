@@ -7,7 +7,7 @@ bypassOnDebugにtrueを指定することでwebpackがdebugモードの場合に
 ### インストール
 
 ```console
-npm install image-webpack-loader --save-dev
+npm install image-webpack-loader url-loader --save-dev
 ```
 
 ### example.js
