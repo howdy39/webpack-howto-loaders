@@ -1,7 +1,9 @@
 module.exports = {
   entry: './example.js',
   output: {
-    filename: 'output.js'
+    path: 'dist',
+    filename: 'output.js',
+    publicPath: './dist/'
   },
   module: {
     loaders: [
