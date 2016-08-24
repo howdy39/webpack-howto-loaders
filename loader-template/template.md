@@ -13,10 +13,10 @@ npm install xxx-loader --save-dev
 {{example.js}}
 ```
 
-### cats.xxx
+### example.html
 
-```xxx:cats.xxx
-{{cats.xxx}}
+```html:example.html
+{{example.html}}
 ```
 
 ### webpack.config.js
@@ -27,7 +27,4 @@ npm install xxx-loader --save-dev
 
 ### 実行&実行結果
 
-```console 
-node output.js
-[ 'tama', 'kuro', 'tora' ]
-```
+![cap1](https://raw.githubusercontent.com/howdy39/webpack-howto-loaders/master/examples/xxx-loader/capture/cap1.png)
