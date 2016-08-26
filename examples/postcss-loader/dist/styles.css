@@ -1,0 +1,9 @@
+body {
+  border-radius: 4px;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
